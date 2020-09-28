@@ -1,0 +1,22 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #00FFFF;
+   color: black;
+   text-align: center;
+}
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 160px;
+}
